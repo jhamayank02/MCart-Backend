@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Adding Page</title>
+</head>
+<body>
+    <form action="/products/add" method="post" enctype="multipart/form-data">
+        <input placeholder="Enter category" type="text" name="category">
+        <input placeholder="Enter sub category" type="text" name="sub_category">
+        <input placeholder="Enter product name" type="text" name="product_name">
+        <input placeholder="Enter description" type="text" name="description">
+        <input placeholder="Enter original price" type="text" name="original_price">
+        <input placeholder="Enter discounted price" type="text" name="discounted_price">
+        <input placeholder="Enter image" type="file" accept="image*/" name="image">
+        <input placeholder="Enter specification 1" type="text" name="specification1">
+        <input placeholder="Enter specification 2" type="text" name="specification2">
+        <input placeholder="Enter specification 3" type="text" name="specification3">
+        <input placeholder="Enter reviews" type="text" name="reviews">
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
